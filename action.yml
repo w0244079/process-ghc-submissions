@@ -1,0 +1,9 @@
+name: 'Process GHC Submissions'
+description: 'Says hello to a user'
+inputs:
+  name:
+    description: 'The name of the person'
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
